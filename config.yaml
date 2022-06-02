@@ -1,0 +1,268 @@
+baseURL: https://drsarapsychologist.co.uk/
+languageCode: en-gb
+title: Dr Sara Psychologist
+theme: hugo-profile
+
+Paginate: 3
+disqusShortname:
+googleAnalytics:
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  #main:
+    #- identifier: blog
+    #  name: Blog
+    #  title: Blog posts
+    #  url: /blogs
+    #  weight: 1
+
+    #Dropdown menu
+    #- identifier: dropdown
+    #  title: Example dropdown menu
+    #  name: Dropdown
+    #  weight: 2
+    #- identifier: dropdown1
+    #  title: example dropdown 1
+    #  name: example 1
+    #  url: /#
+    #  parent: dropdown
+    #  weight: 1
+    #- identifier: dropdown2
+    #  title: example dropdown 2
+    #  name: example 2
+    #  url: /#
+    #  parent: dropdown
+    #  weight: 2
+
+params:
+  title: "Dr Sara Psychologist"
+  description: Dr Sara Szydlowska's website
+  # staticPath: ""  # The path to serve the static files from
+  favicon:  "favicon.png"
+
+  theme:
+    disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hello, my name is"
+    title: "Dr Sara Szydlowska."
+    subtitle: "I am here to support you with your psychological health and wellbeing."
+    content: "I am passionate about supporting clients towards growth and higher levels of resilience in order to live more emotionally healthy lives."
+    image: /images/sara.jpg
+    button:
+      enable: true
+      name: "Contact me"
+      url: "#contact"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/dr-sara-szydlowska
+        - icon: fab fa-twitter
+          url: https://twitter.com/saraszydlowska
+        - icon: fab fa-instagram
+          url: https://instagram.com/drsarapsychologist
+      #customIcons:
+      #  - icon: /fav.png
+      #    url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    #image: "/images/sara.jpg"
+    content: |-
+      I am an experienced Clinical Psychologist offering assessments and interventions for children, young people and adults facing a range of difficulties including:
+
+      *	work and school related stress
+      *	anxiety (including specific phobias, panic, OCD and generalised anxiety)
+      *	PTSD and cPTSD
+      *	difficulties with emotions (emotional regulation)
+      *	issues with self-confidence
+      *	bereavement
+      *	low mood
+      *	relationship difficulties
+
+      I have experience working with people during adolescence and young adulthood as well as with women and families during the perinatal period.
+
+      My aim is to work together with individuals (and where applicable the important people in their lives) to help them makes sense of the difficulties they have encountered and live more compassionate and authentic lives.
+
+    skills:
+      enable: true
+      title: "Some of the therapies I offer:"
+      items:
+        - "EMDR"
+        - "DBT"
+        - "MBT"
+        - "CBT"
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - job: "Clinical Lead"
+        company: "CNWL Maternity Trauma and Loss Care Service"
+        #companyUrl: "https://example.com"
+        date: "April 2021 - present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: false
+          #content:
+        content: | 
+          In my current NHS role, I am the Clinical Lead in Central and North West London for the Maternity Trauma and Loss Care Service. This is a specialist service that supports women and birthing people that have been adversely affected by trauma and loss during their reproductive journey.
+
+      - job: "Perinatal Psychologist"
+        company: "Kensington and Chelsea Perinatal Mental Health Team"
+        #companyUrl: "https://example.com"
+        date: "June 2017 - April 2021"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: false
+          #content:
+        content: |
+          I was the lead perinatal psychologist providing specialist assessment, formulation and intervention for women and birth people presenting with moderate to severe mental health difficulties during pregnancy and post-nataly.
+
+      - job: "Senior Clinical Psychologist"
+        company: "Islington Adolescent Outreach Team"
+        #companyUrl: "https://example.com"
+        date: "July 2016 - April 2021"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: false
+        content: |
+          I was the senior psychologist with a multidisciplinary team providing specialist assessment, formulation and intervention for young people presenting with severe and acute mental health difficulties.
+
+      - job: "Clinical Psychologist"
+        company: "Growing Together"
+        #companyUrl: "https://example.com"
+        date: "November 2015 - Dec 2016"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: false
+        content: |
+          Provided a clinical psychology service to parents and young children ages 1-5.
+
+      - job: "Clinical Affiliate"
+        company: "City Psychology Group"
+        #companyUrl: "https://example.com"
+        date: "September 2016 - May 2022"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: false
+        content: |
+          Clinical Psychologist in private practice.
+
+  # Education
+  education:
+    enable: true
+    # index: true
+    items:
+      - title: "Doctorate in Clinical Psychology (PsyD)"
+        school:
+          name: "Royal Holloway University of London"
+          url: "https://www.royalholloway.ac.uk"
+        date: "2010- 2013"
+        #GPA: "3.8 out of 5.0"
+        content: |-
+          Doctoral Thesis:
+            - The Therapeutic Alliance in the First Session of Mentaliszation Based Family Therapy (MBT-F).
+           
+      - title: "Post Graduate Diploma in CBT and other Evidence Based Interventions (PGDip)"
+        school:
+          name: "University College (UCL)"
+          url: "https://www.ucl.ac.uk"
+        date: "2008 - 2009"
+        #GPA: "3.9 out of 5.0"
+        content: |
+        #featuredLink:
+        #  enable: true
+        #  name: "MA Applied Psychology"
+        #  url: "https://example.com"
+
+      - title: "MA in Applied Psychology"
+        school:
+          name: "Jagiellonian Univesity, Krakow, Poland."
+          url: "https://en.uj.edu.pl/en_GB/start"
+        date: "1999 - 2004"
+        #GPA: "4.2 out of 5.0"
+        #featuredLink:
+        #  enable: true
+        #  url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: false
+
+  # projects
+  projects:
+    enable: false
+
+  #Contact
+  contact:
+    enable: true
+    content: If you have a query or would like to make an appointment, please get in touch I’ll try my best to get back to you within 48 hours.
+    email: drsarapsychologist@gmail.com
+    btnName: Email me
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      #github: https://github.com
+      linkedin: https://linkedin.com/in/dr-sara-szydlowska
+      twitter: https://twitter.com/saraszydlowska
+      instagram: https://instagram.com/drsarapsychologist
+      #facebook: https://facebook.com
