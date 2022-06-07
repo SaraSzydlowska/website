@@ -257,7 +257,7 @@ params:
   contact:
     enable: true
     content: If you have a query or would like to make an appointment, please get in touch I’ll try my best to get back to you within 48 hours.
-    email: drsarapsychologist@gmail.com
+    email: drsarapsychologist+website@gmail.com
     btnName: Email me
 
   footer:
