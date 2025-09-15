@@ -1,9 +1,12 @@
 baseURL: https://drsarapsychologist.co.uk/
 languageCode: en-gb
 title: Dr Sara Psychologist
-theme: hugo-profile
 
-Paginate: 3
+module:
+  imports:
+  - path: github.com/gurusabarish/hugo-profile
+
+#Paginate: 3
 disqusShortname:
 googleAnalytics:
 
@@ -46,7 +49,7 @@ params:
 
   theme:
     disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -72,18 +75,24 @@ params:
   #     secondaryColor:
 
   # If you want to customize the menu, you can change it here
-  # navbar:
-  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-  #   brandName: "Profile" # Brand name for the brand | default is the title variable
-
-  #   menus:
-  #     disableAbout: true
-  #     disableExperience: true
-  #     disableEducation: true
-  #     disableProjects: true
-  #     disableAchievements: true
-  #     disableContact: true
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    # brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
 
   # Hero
   hero:
@@ -261,7 +270,7 @@ params:
     btnName: Email me
 
   footer:
-    recentPosts: false
+    #recentPosts: false
     socialNetworks:
       #github: https://github.com
       linkedin: https://linkedin.com/in/dr-sara-szydlowska
